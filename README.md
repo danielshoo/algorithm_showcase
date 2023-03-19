@@ -1,30 +1,8 @@
-<h3 class="content-section__h3"> algorithm_showcase</h3>
-
-<style>
-    .content-section__h3 {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    .content-section__h2 {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    .content-section__h5 {
-        font-size: 0.75rem;
-        font-weight: bold;
-        text-decoration: underline;
-    }
-    .content-section__steps-list {
-        list-style-type: decimal;
-        padding-left: 1rem;
-    }
-</style>
-<br/>
-<h2 class="content-section__h2">Step to initialize and run project:</h2>
+<h2> algorithm_showcase</h2>
 
 <br/>
+<h4>Step to initialize and run this project from the command line:</h4>
 
-<h5 class="content-section__h5">Command Line</h5>
 <ol class="content-section__steps-list">
     <li>Clone the repository with <code>git clone git@github.com:danielshoo/algorithm_showcase.git</code></li>
     <li>Move into the new cloned repo's frontend directory with <code>cd algorithm_showcase/app/frontend</code></li>
