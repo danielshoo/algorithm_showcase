@@ -1,4 +1,4 @@
-module.export = function selectionSort(arr) {
+module.exports = function selectionSort(arr) {
 	
 	let newArr = [...arr];
 	
