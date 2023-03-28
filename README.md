@@ -1,3 +1,9 @@
+### [UNDER DEVELOPMENT]
+There are currently no algorithms being showcase in this project and there is no reason to run it except to see the nginx server running
+<br />
+<br />
+
+
 <h2> algorithm_showcase</h2>
 
 <br/>
