@@ -1,5 +1,9 @@
 ### [UNDER DEVELOPMENT]
-There are currently no algorithms being showcase in this project and there is no reason to run it except to see the nginx server running
+There are currently no algorithms being showcased in this project and there is no reason to run it except to see the nginx server running. <br />
+If you are interested in seeing what algorithms are to come, see the `docker/web/app/frontend/js/lib` directorys where the following aglgorithms were implemented:
+1. insertionSort
+2. quickSort
+3. mergeSort
 <br />
 <br />
 
