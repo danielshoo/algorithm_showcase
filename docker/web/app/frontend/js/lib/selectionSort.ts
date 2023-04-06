@@ -24,7 +24,3 @@ module.exports = function selectionSort(arr) {
 	
 	return newArr;
 }
-
-function getMidpoint(start, end) {
-	return Math.floor(start + (end - start)/2);
-}

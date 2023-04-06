@@ -1,7 +1,10 @@
 .idea
 
+app/backend/**/*.js
+app/frontend/**/*.js
+
 app/node_modules
-docker/web/app/node_modules/
 app/public
+docker/web/app/node_modules/
 docker/web/app/public/
 
