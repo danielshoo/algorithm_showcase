@@ -16,10 +16,7 @@ If you are interested in seeing what algorithms are to come, see the `docker/web
 <ol class="content-section__steps-list">
     <li>Clone the repository with <code>git clone git@github.com:danielshoo/algorithm_showcase.git</code></li>
     <li>Move into the new cloned repo's frontend directory with <code>cd algorithm_showcase/app/frontend</code></li>
-    <li>Run the application's frontend build with <code>npm run buildDev</code></li>
-    <li>Change directory to the project root with <code>cd ../../</code></li>
-    <li>Execute <code>docker build --tag algorithm_showcase docker/web </code></li>
-    <li>Execute <code>docker run -p 80:80 algorithm_showcase</code></li>
+    <li>Run the application's frontend build, backend build, and start the nginx server with: <code>npm run project:dev</code></li>. This will launch a container tagged algorithm_showcase.
 </ol>
 
 At this point, you can see the results of the project from a browser. E.g: by visiting
