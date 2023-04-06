@@ -12,6 +12,7 @@
   "author": "Daniel Shuster",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^9.1.2",
     "chunk-list-webpack-plugin": "^0.2.0",
     "css-loader": "^6.7.3",
     "extract-loader": "^5.1.0",

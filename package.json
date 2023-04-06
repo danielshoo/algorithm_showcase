@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "initProjectAndDevWatch": "(docker run -d -p 80:80 --mount type=bind,source=$(pwd)/app,target=/usr/share/nginx/app algorithm_showcase) && (cd app && npm run buildDevWatch)"
+  }
+}
