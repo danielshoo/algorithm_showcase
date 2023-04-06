@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "project:dev": "(docker run -d -p 80:80 --mount type=bind,source=$(pwd)/app,target=/usr/share/nginx/app algorithm_showcase) && (cd app && npm run build:dev)",
     "project:dev:watch": "(docker run -d -p 80:80 --mount type=bind,source=$(pwd)/app,target=/usr/share/nginx/app algorithm_showcase) && (cd app && npm run build:dev:watch)"
   }
 }
